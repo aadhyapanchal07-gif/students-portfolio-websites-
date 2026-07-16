@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures the website looks good on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhya Panchal| Portfolio</title>
+
+    <!-- Link to our external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Import Google Fonts (Inter) for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span class="logo-code">&lt;AP /&gt;</span> Aadhya Panchal</div>
+            <!-- Navigation links to different sections of the page -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Main Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Aadhya Panchal</span></h1>
+                <p>BCA Student &bull; Frontend Developer &bull; Lifelong Learner <br> <small><svg viewBox="0 0 24 24"
+                            width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            style="vertical-align: middle; margin-right: 4px; margin-bottom: 2px;">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>Ahmedabad, India</small>
+                </p>
+                <a href="#contact" class="btn-premium">
+                    Contact Me
+                    <span class="icon-circle">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I am a BCA student with a strong interest in Frontend Development. I enjoy creating clean, responsive
+                and user-friendly websites while continuously improving my web development skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <!-- Individual skill cards -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 384 512" fill="currentColor">
+                        <path
+                            d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                    </svg>
+                </div>
+                <h3>HTML</h3>
+                <p>Building semantic and accessible web pages</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 384 512" fill="currentColor">
+                        <path
+                            d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                    </svg>
+                </div>
+                <h3>CSS</h3>
+                <p>Creating responsive and modern interfaces</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 448 512" fill="currentColor">
+                        <path
+                            d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                    </svg>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Adding dynamic and interactive functionality</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 448 512" fill="currentColor">
+                        <path
+                            d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z" />
+                    </svg>
+                </div>
+                <h3>SQL</h3>
+                <p>Managing and querying relational databases</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 384 512" fill="currentColor">
+                        <path
+                            d="M329.4 41.4C282.8 14.4 233.1 0 184 0 134 0 85.3 14.4 38.6 41.4 13.5 55.4 0 83 0 113.1v285.8c0 30.1 13.5 57.7 38.6 71.7C85.3 497.6 134 512 184 512c49.1 0 98.8-14.4 145.4-41.4 25.1-14 38.6-41.6 38.6-71.7V113.1c0-30.1-13.5-57.7-38.6-71.7zM184 466.7c-40.4 0-80.1-12-117.4-34.8-16.6-10.2-25.5-27.1-25.5-46.1V126.2c0-19 8.9-35.9 25.5-46.1C103.9 57.3 143.6 45.3 184 45.3c40.4 0 80.1 12 117.4 34.8 16.6 10.2 25.5 27.1 25.5 46.1v259.6c0 19-8.9 35.9-25.5 46.1-37.3 22.8-77 34.8-117.4 34.8zM245.9 146.4c-16.5-10.9-36.8-16.5-58.4-16.5-55.2 0-99.7 41.6-99.7 96.6 0 55.1 44.5 96.6 99.7 96.6 21.6 0 41.9-5.6 58.4-16.5 13.5-8.9 32.2-7.5 43.8 3.3 13.1 12.2 14.5 32 3.1 45.8-23.7 28.7-60.8 44.9-105.3 44.9-88.6 0-160-64.2-160-155.6s71.4-155.6 160-155.6c44.5 0 81.6 16.2 105.3 44.9 11.4 13.8 10 33.6-3.1 45.8-11.6 10.8-30.3 12.2-43.8 3.3z" />
+                    </svg>
+                </div>
+                <h3>C Programming</h3>
+                <p>Strong programming fundamentals</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 512 512" fill="currentColor">
+                        <path
+                            d="M480 160H32c-17.67 0-32-14.33-32-32V64c0-17.67 14.33-32 32-32h448c17.67 0 32 14.33 32 32v64c0 17.67-14.33 32-32 32zm-48-88c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24zm-64 0c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24zm112 248H32c-17.67 0-32-14.33-32-32v-64c0-17.67 14.33-32 32-32h448c17.67 0 32 14.33 32 32v64c0 17.67-14.33 32-32 32zm-48-88c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24zm-64 0c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24zm112 248H32c-17.67 0-32-14.33-32-32v-64c0-17.67 14.33-32 32-32h448c17.67 0 32 14.33 32 32v64c0 17.67-14.33 32-32 32zm-48-88c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24zm-64 0c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24z" />
+                    </svg>
+                </div>
+                <h3>DBMS</h3>
+                <p>Database design and normalization</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="16" y="16" width="6" height="6" rx="1"></rect>
+                        <rect x="2" y="16" width="6" height="6" rx="1"></rect>
+                        <rect x="9" y="2" width="6" height="6" rx="1"></rect>
+                        <path d="M5 16v-3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3"></path>
+                        <path d="M12 8v3"></path>
+                    </svg>
+                </div>
+                <h3>Data Structures</h3>
+                <p>Efficient problem solving and optimization</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Registration Form</h3>
+                <p>A responsive registration form built using HTML and CSS with a clean modern UI.</p>
+                <a href="https://aadhyapanchal07.github.io/registration-form-version_2/" target="_blank" class="btn project-btn">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>University Website</h3>
+                <p>A responsive university website with multiple pages and Supabase authentication.</p>
+                <a href="https://aadhyapanchal07.github.io/university-website/" target="_blank" class="btn project-btn">View Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>A modern portfolio website showcasing my skills, projects and contact information.</p>
+                <a href="https://aadhyapanchal07.github.io/portfolio-website/" target="_blank" class="btn project-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <p>Have a question or want to connect? Feel free to send me a message.</p>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Ahmedabad, India</span>
+            </div>
+            <div class="info-item">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <a href="mailto:aadhyapanchal07@gmail.com">aadhyapanchal07@gmail.com</a>
+            </div>
+          
+        </div>
+
+        <!-- A simple contact form (UI only, no JS backend) -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Aadhya Panchal. Built with HTML & CSS.</p>
+    </footer>
+
+    <!-- Animations Script -->
+    <script>
+        // 1. Fade-up animation for sections
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.15 });
+        
+        // Reveal About, Skills, Projects, and Contact sections
+        document.querySelectorAll('#about, #skills, #projects, #contact').forEach(section => {
+            section.classList.add('fade-up');
+            observer.observe(section);
+        });
+
+        // 2. Subtle background particles
+        const particlesContainer = document.createElement('div');
+        particlesContainer.className = 'particles-container';
+        document.body.prepend(particlesContainer);
+        
+        for (let i = 0; i < 15; i++) {
+            let particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + 'vw';
+            particle.style.animationDuration = (Math.random() * 20 + 15) + 's';
+            particle.style.animationDelay = '-' + (Math.random() * 20) + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // 4. Scroll Progress Bar
+        const progressBar = document.getElementById('progress-bar');
+        window.addEventListener('scroll', () => {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const progress = (scrollTop / scrollHeight) * 100;
+            progressBar.style.width = progress + '%';
+        });
+
+        // 3. Active Navigation Link Highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        
+        const navObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${entry.target.id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+        
+        sections.forEach(section => navObserver.observe(section));
+    </script>
+</body>
+
+</html>
